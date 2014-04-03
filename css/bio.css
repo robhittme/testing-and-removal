@@ -1,0 +1,30 @@
+.para{
+
+}
+
+div.para p{
+	font-size: 20px;
+}
+div.para{ 
+	font-size: 20px;
+}
+.link h1, a{
+	font-size: 30px;
+	text-decoration: none;
+	color: grey;
+}
+
+.column-left{
+	width:30%;
+	display: inline-block;
+
+}
+.column-right{
+	width:30%;
+	display: inline-block;
+	
+} 
+.column-center{ 
+	width: 30%;
+	display: inline-block;
+	}
