@@ -1,6 +1,5 @@
 body{
 }
-
 .flex-container {
 display: -webkit-flex;
 -webkit-flex-direction: row;
@@ -19,6 +18,7 @@ header{
         color: black;
         background-color: white;
         opacity: 0.87;
+        vertical-align: top;
     	.headerNav li{
     		display: inline-block;
     		list-style-type: none;
@@ -54,7 +54,7 @@ header{
 }
 .secondPic{
     min-height: 400px;
-    background-image: url(http://fc02.deviantart.net/fs71/f/2012/166/f/6/woods_at_dusk_by_bluukat-d:;);
+    background-image: url("../images/sanfran.jpg");
     background-attachment: fixed;
 }
 
@@ -74,7 +74,6 @@ header{
     padding: 20px;
     display: inline-block;
     text-align: center;
-    background-color: rgba(112, 178, 145, 1.0000);
         .project {
         display: inline-block;
         list-style-type: none;
@@ -82,11 +81,15 @@ header{
         padding: 5px;
         width: 30%;
         position: center;
+        a img{
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+        }
             .description {
                 text-align: center;
                 display: inline-block;
                 font-size: 15px;
-                color: white;
                 width: 90%;
                 vertical-align: top;
             }
